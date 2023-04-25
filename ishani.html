@@ -9,7 +9,7 @@
 </head>
 <body>
 
-  <p> <a href="index.html"> Back to Main </a> | A website about us | Created by Valeryia Pliuto and Ishani Budhwar</p>
+  <p> <a href="index.html"> Back to Main </a> | A website about us | Created by Valeryia Pliuto and Ishani Budhwar | <button onclick="darkMode()"> Dark Mode </button></p>
   <h1 class = "title">Ishani Budhwar<h1/>
 <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
 <div class="topnav" id="myTopnav">
@@ -28,5 +28,12 @@
   <img class = "circle" id = "pic" src="https://wallpapers.com/images/featured/1br5iypzxjnqd5bu.jpg">
   <img id = "pic" src="  https://i.pinimg.com/originals/2e/a9/56/2ea9569bda70c9c68cf0b6b75a9ec837.jpg">
 </div>
+
+<script>
+  function darkMode() {
+     var element = document.body;
+     element.classList.toggle("dark-mode");
+  }
+</script>
 </body>
 </html>

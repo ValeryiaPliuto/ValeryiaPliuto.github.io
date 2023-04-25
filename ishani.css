@@ -2,15 +2,16 @@
    p {
     padding: 10px; /* some padding */
     text-align: center; /* center the text */
-    color: black;
-    background-color: #ffb8b89a;
+    color: rgb(52, 41, 41);
+    background-color: #f78c8c7b;
    }
    .title {
     padding: 50px; /* some padding */
     text-align: center; /* center the text */
-    background-color: #ffd2d2;
-    color: #584040;
+    background-color: #ffd2d29d;
+    color: Onyx;
     font-size: 381%;
+    margin: 30x;
    }
    
    .topnav {
@@ -27,7 +28,7 @@
    .topnav a {
      float: center;
      display: inline;
-     color: #fccfcf;
+     color: #f6dede;
      text-align: center;
      padding: 14px 16px;
      text-decoration: none;
@@ -79,15 +80,25 @@
     margin: 5%;
     padding: 4%;
     border-radius: 59%;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.367),0 0 40px rgba(0,0,0,0.1),0 0 60px rgba(0,0,0,0.1),0 0 80px rgba(0,0,0,0.1);
+
   }
 
 
   #pic {
     margin: 3.1%;
+    box-shadow: 0 0 20px rgba(0,0,0,0.1),0 0 40px rgba(0,0,0,0.1),0 0 60px rgba(0,0,0,0.1),0 0 80px rgba(0,0,0,0.1);
+
   }
 
   .bfly {
     width: 31%;
     float: right;
 
+  }
+
+  .dark-mode {
+    background-image: url("https://wallpapercrafter.com/desktop/14420-starry-sky-stars-shine-night-trees-starry-night-4k.jpg");
+    background-color: black;
+    color: white;
   }

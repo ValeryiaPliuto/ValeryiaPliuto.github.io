@@ -2,13 +2,13 @@
 p {
     padding: 10px; /* some padding */
      text-align: center; /* center the text */
-     background: #9EACB8; /* green background */
+     background: #9eacb878; /* green background */
      color: Onyx; /* white text color */
    }
    h1 {
     padding: 50px; /* some padding */
     text-align: center; /* center the text */
-    background: #E6E8E6; /* green background */
+    background: #e6e8e68d; /* green background */
     color: Onyx; /* white text color */
     font-size: 381%;
    }
@@ -60,4 +60,10 @@ p {
   a {
     text-decoration: none;
 
+  }
+
+  .dark-mode {
+    background-image: url("https://wallpapercrafter.com/desktop/5803-mountain-peak-bw-dark-night-4k.jpg");
+    background-color: black;
+    color: white;
   }

@@ -10,7 +10,7 @@
 </head>
 <body>
 
-  <p> <a href="index.html"> Back to Main </a> | A website about us | Created by Valeryia Pliuto and Ishani Budhwar</p>
+  <p> <a href="index.html"> Back to Main </a> | A website about us | Created by Valeryia Pliuto and Ishani Budhwar | <button onclick="darkMode()"> Dark Mode </button></p>
   <h1>Valeryia Pliuto<h1/>
 <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
 <div class="topnav" id="myTopnav">
@@ -20,5 +20,11 @@
   </a>
 </div>
 
+<script>
+  function darkMode() {
+     var element = document.body;
+     element.classList.toggle("dark-mode");
+  }
+</script>
 </body>
 </html>
