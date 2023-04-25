@@ -1,17 +1,18 @@
 /* Increase the font size of the <h1> element */
-p {
+  p {
     padding: 10px; /* some padding */
      text-align: center; /* center the text */
-     background: #e7b6c3; /* green background */
      color: Onyx; /* white text color */
    }
    h1 {
     padding: 50px; /* some padding */
     text-align: center; /* center the text */
-    background: #f4c9c9;
+    background-image: url("https://images.rawpixel.com/image_1300/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvcm0zNTEtYWRqLWJhY2tncm91bmQtMDdfMS5qcGc.jpg");
+    background-color: #cccccc;  
+    background-repeat: no-repeat;
+    background-size: cover;
     color: #584040;
     font-size: 381%;
-
    }
    
    .topnav {
@@ -47,10 +48,8 @@ p {
    }
 
    body {
-    background-image: url("https://images.rawpixel.com/image_1300/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvcm0zNTEtYWRqLWJhY2tncm91bmQtMDdfMS5qcGc.jpg");
-    background-color: #cccccc;
-    background-repeat: no-repeat;
-    background-size: cover;
+    
+    background-color: #ffc7ce;
    }
 
    html {
@@ -60,5 +59,24 @@ p {
 
   a {
     text-decoration: none;
+
+  }
+
+  .circle {
+    border-radius: 50%;
+  }
+
+  .quote {
+    font-size: 51%;
+    text-align: right;
+    background-color: #ffc7ce;
+    float: right;
+  }
+
+  .ring {
+    align-self: left;
+    place-self: left;
+    float: left;
+    margin: 3.1%;
 
   }
