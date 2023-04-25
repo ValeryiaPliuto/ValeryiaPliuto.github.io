@@ -9,7 +9,7 @@
 </head>
 <body>
 
-<p> <a href="index.html"> Back to Main </a> | A website about us | Created by Valeryia Pliuto and Ishani Budhwar | <button onclick="darkMode()"> Dark Mode </button></p>
+<p class = "nav"> <a href="index.html"> Back to Main </a> | A website about us | Created by Valeryia Pliuto and Ishani Budhwar | <button onclick="darkMode()"> dark-mode </button></p>
 <h1>WebUs<h1/>
 <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
 <div class="topnav" id="myTopnav">
@@ -19,11 +19,19 @@
   </a>
 </div>
 
+<p1>
+  Hi, this a WebUs a website about us. Here we added some quotes that inspire us the most and pictures that we like, so you get to know us a little bit better.
+</p1>
+
+
 <script>
   function darkMode() {
      var element = document.body;
      element.classList.toggle("dark-mode");
-  }
+  var button = document.getElementsByTagName('button')[0];
+   if(button.textContent == 'white-mode')button.textContent='dark-mode';
+   else button.textContent='white-mode';
+}
 </script>
 </body>
 </html>

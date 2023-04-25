@@ -67,3 +67,19 @@ p {
     background-color: black;
     color: white;
   }
+
+  p1 {
+    text-align: center;
+    color: black;
+    background-color: #B1B3B1;
+    font-size: 50px;
+    display: inline-block;
+    transform: scale(.7, 1)
+    }
+    p2 {
+    text-align: center;
+    color: black;
+    font-size: 50px;
+    display: inline-block;
+    transform: scale(.7, 1)
+    }
