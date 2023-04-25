@@ -68,6 +68,7 @@
   .circle {
     border-radius: 50%;
     width: 19%;
+    float: mid;
   }
 
   .quote {
@@ -92,7 +93,7 @@
   }
 
   .bfly {
-    width: 31%;
+    width: 37%;
     float: right;
 
   }
@@ -101,4 +102,21 @@
     background-image: url("https://wallpapercrafter.com/desktop/14420-starry-sky-stars-shine-night-trees-starry-night-4k.jpg");
     background-color: black;
     color: white;
+  }
+
+  .sushi {
+    width: 21%;
+    float: right;
+
+  }
+  .quote2 {
+    font-size: 81%;
+    text-align: justify;
+    background-image: radial-gradient(#ff95a7, rgb(255, 226, 226));
+    float: left;
+    width: 11%;
+    margin: 3.1%;
+    padding: 4%;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.367),0 0 40px rgba(0,0,0,0.1),0 0 60px rgba(0,0,0,0.1),0 0 80px rgba(0,0,0,0.1);
+
   }
