@@ -65,9 +65,9 @@
   p1 {
     text-align: center;
     color: white;
-    font-size: 35px;
+    font-size: 50px;
     display: inline-block;
-    transform: scale(.7, 1)
+    transform: scale(.7, 1);
   }
   
   .dark-mode {
