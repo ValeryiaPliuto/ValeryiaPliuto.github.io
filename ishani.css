@@ -1,16 +1,14 @@
 /* Increase the font size of the <h1> element */
-  p {
+   p {
     padding: 10px; /* some padding */
-     text-align: center; /* center the text */
-     color: Onyx; /* white text color */
+    text-align: center; /* center the text */
+    color: black;
+    background-color: #ffb8b89a;
    }
-   h1 {
+   .title {
     padding: 50px; /* some padding */
     text-align: center; /* center the text */
-    background-image: url("https://images.rawpixel.com/image_1300/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvcm0zNTEtYWRqLWJhY2tncm91bmQtMDdfMS5qcGc.jpg");
-    background-color: #cccccc;  
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-color: #ffd2d2;
     color: #584040;
     font-size: 381%;
    }
@@ -20,6 +18,9 @@
      overflow: hidden;
      padding: 1.7%;
      border-radius: 12px;
+     text-align: center;
+     font-size: 181%;
+     border: #fccfcf;
    }
    
    /* Style the links inside the navigation bar */
@@ -48,8 +49,9 @@
    }
 
    body {
-    
-    background-color: #ffc7ce;
+    background-image: url("https://images.rawpixel.com/image_1300/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvcm0zNTEtYWRqLWJhY2tncm91bmQtMDdfMS5qcGc.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
    }
 
    html {
@@ -64,19 +66,28 @@
 
   .circle {
     border-radius: 50%;
+    width: 19%;
   }
 
   .quote {
     font-size: 51%;
-    text-align: right;
-    background-color: #ffc7ce;
+    text-align: justify;
+    background-image: radial-gradient(#ff95a7, rgb(255, 226, 226));
     float: right;
+    width: 12%;
+    margin: 3.1%;
+    margin: 5%;
+    padding: 4%;
+    border-radius: 59%;
   }
 
-  .ring {
-    align-self: left;
-    place-self: left;
-    float: left;
+
+  #pic {
     margin: 3.1%;
+  }
+
+  .bfly {
+    width: 31%;
+    float: right;
 
   }

@@ -8,13 +8,13 @@ p {
    h1 {
     padding: 50px; /* some padding */
     text-align: center; /* center the text */
-    background: #E6E8E6; /* green background */
+    background: #655585d4; /* green background */
     color: Onyx; /* white text color */
     font-size: 381%;
    }
    
    .topnav {
-     background-color: #333;
+     background-color: #3e3d3d9e;
      overflow: hidden;
      padding: 1.7%;
      border-radius: 12px;
@@ -46,7 +46,7 @@ p {
    }
 
    body {
-    background-image: url("https://img.freepik.com/premium-photo/evening-dramatic-minimal-landscape-with-sunlit-high-snow-mountain-top-pink-cloudy-sky-sunset-beautiful-alpine-landscape-with-large-snowy-mountain_158388-8049.jpg?w=360");
+    background-image: url("https://rare-gallery.com/thumbs/546810-Sky-Winter.jpg");
     background-color: #cccccc;
     background-repeat: no-repeat;
     background-size: cover;
